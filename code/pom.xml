@@ -80,6 +80,13 @@
 			<version>3.23.1-GA</version>
 		</dependency>
 		<!-- Fim Dependências para compatibilidade com o Java 11 -->
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		
 	</dependencies>
 
 	<properties>
