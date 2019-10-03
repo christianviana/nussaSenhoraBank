@@ -84,6 +84,9 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<maven.compiler.source>1.11</maven.compiler.source>
+		<maven.compiler.target>1.11</maven.compiler.target>
+		<start-class>api.HomebankingApplication</start-class>
 	</properties>
 
 
