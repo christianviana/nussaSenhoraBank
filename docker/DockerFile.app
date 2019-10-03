@@ -2,7 +2,7 @@
 FROM maven:base AS BUILD_BINARIO
 
 # Copiando o codigo de nossa maquina local para dentro do container
-COPY ../ /home/codigo
+COPY ./code /home/codigo
 WORKDIR /home/codigo
 
 # Gerando o binario Java
